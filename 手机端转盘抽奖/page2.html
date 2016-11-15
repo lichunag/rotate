@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>流行前线</title>
+<link href="css/mobile.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-rotate.js"></script>
+<script type="text/javascript" src="js/page.js"></script>
+</head>
+<body style="overflow-x:hidden;">
+    <img src="images/1.png" id="img1" style="display:none;" />
+    <img src="images/2.png" id="img2" style="display:none;" />
+    <img src="images/3.png" id="img3" style="display:none;" />  
+    <img src="images/4.png" id="img4" style="display:none;" />  
+    <img src="images/5.png" id="img5" style="display:none;" />            
+    <img src="images/6.png" id="img6" style="display:none;" />  
+    <img src="images/7.png" id="img7" style="display:none;" />
+    <img src="images/8.png" id="img8" style="display:none;" />     
+    <img src="images/thank.png" id="thank" style="display:none;" /> 
+    <img src="images/page2-top.jpg"/>
+	<div class="banner rel">
+		<div class="turnplate" style="background-image:url(images/turnplate-bg.png);background-size:100% 100%;">
+			<canvas class="item" id="wheelcanvas" width="422px" height="422px"></canvas>
+			<img class="pointer" src="images/turnplate-pointer.png"/>
+		</div>
+					<img src="images/star2.png" class="banner-star1"/>
+					<img src="images/star2.png" class="banner-star2"/>
+	</div>
+	<center>您还有  <span class="f-16 f-red f-bold">2</span> 次抽奖机会</center>
+	<div class="shine"></div>
+	<div class="page2-btn-box clear">
+		<img src="images/btn3.png" class="per45 fl mygift-btn" />
+		<img src="images/btn4.png" class="fr per45 share-btn"/>		
+	</div>
+	<!--分享弹出-->
+	<div class="mask">
+		<img src="images/share.png" class="share-friends"/>
+	</div>
+	<!--提示弹窗-->
+		<div class="pop tip-pop">
+		<img src="images/tip-title.png" class="mb20"/>
+		<img src="images/close.png" class="close tip-close"/>
+		<div class="pop-box">
+			<p class="pb20">iPhone6或iPhone6s <br>
+时尚电动车<br>
+食用油、大米、便携纸杯<br>
+逸风造型大礼包<br>
+俊熙家紫菜包、泡芙密语蛋挞
+以上礼品以礼券的方式进行展示并存<br>
+放在“<span class="f-red">我的礼品</span>”里</p>
+<center class="f-yellow f-bold f-14">所有奖项以卡劵形式呈现</center>
+<center class="f-yellow f-bold f-14 pb20">10.1-10.3凭卡进行兑换</center>
+		</div>
+		</div>
+		<!--二维码弹窗-->
+		<div class="pop twocode-pop">
+			<img src="images/close.png" class="close tip-close"/>			
+			<div class="pop-yellow pt30 pb20">
+				<img src="images/twocode.jpg" class="twocode"/>
+				<center class="f-bold f-14 lh-30">长按二维码进入公众号<br>查看礼品详情
+				</center>
+			</div>
+		</div>
+		<!--礼品弹窗-->
+		<div class="pop gift-pop">
+			<img src="images/close.png" class="close tip-close"/>			
+			<div class="pop-yellow pt30 pb20 pop-box">
+				<img src="images/face1.png" class="twocode"/>
+				<center class="f-bold f-14 lh-30" id="success-gift">恭喜您成功获得**礼品,<br>
+电子兑换券已存入“<span class="f-14 f-bold f-red">我的礼包</span>”
+				</center>
+				<div class="rel">
+				<img src="images/showtext1.png"/>
+				<img src="images/star2.png" class="pop-star abs"/>
+				</div>
+			</div>
+		</div>
+		<!--失败弹窗-->
+		<div class="pop fail-pop">
+			<img src="images/close.png" class="close tip-close"/>			
+			<div class="pop-yellow pt30 pb20 pop-box">
+				<img src="images/face2.png" class="twocode"/>
+				<center class="f-bold f-14 lh-30 mb30">手气不佳,你没有抽中任何奖品
+				</center>
+				<div class="rel pop-box">
+				<img src="images/showtext2.png"/>
+				<img src="images/star2.png" class="pop-star abs"/>
+				</div>
+			</div>
+		</div>
+	
+</body>
+</html>
